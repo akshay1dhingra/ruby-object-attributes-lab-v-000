@@ -15,3 +15,9 @@ class Dog
     @breed
   end
 end
+
+fido = Dog.new
+fido.name = "Fidooo"
+puts fido.name
+fido.breed = "Shitsew"
+puts fido.breed
